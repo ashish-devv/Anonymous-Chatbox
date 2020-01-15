@@ -1,0 +1,13 @@
+*{margin: 0; padding: 0; }
+body                            { font: 20px yellow;font-family: 'Rubik', sans-serif;}
+#page-wrap                      {height:100%;width:100%;}
+
+#chat-wrap                      { border: 5px solid #000; margin: 0 0 15px 0;background: linear-gradient(to right, #1CB5E0, #000046);}
+#chat-area                      { height: 300px; overflow: auto; border: 1px solid #666; padding: 20px;}
+#chat-area span                 { color: white;background:black;padding: 4px 8px; -moz-border-radius: 5px; -webkit-border-radius: 8px; margin: 0 5px 0 0; }
+#chat-area p                    { padding: 8px 0; border-bottom: 1px solid #ccc;color:yellow; }
+
+#name-area                      { position: absolute; top: 12px; right: 0; color: white; font: bold 12px "Lucida Grande", Sans-Serif; text-align: right; }
+#name-area span                 { color: #fa9f00; }
+#send-message-area p            {  color: white; padding-top: 27px; font-size: 14px; }
+#sendie                         { border: 3px solid black; width: 100%; padding: 10px; font: 15px;height:100px;text-align:center;}
